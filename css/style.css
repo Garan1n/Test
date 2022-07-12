@@ -169,8 +169,7 @@ a:active {
     justify-content: flex-end;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Times New Roman', sans-serif;
     font-size: 28px;
 }
