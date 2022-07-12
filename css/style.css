@@ -2,24 +2,29 @@
     font-family: 'OpenSans Bold';
     src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
 }
+
 @font-face {
     font-family: 'OpenSans Italic';
     src: url(../fonts/OpenSans/OpenSans-Italic.ttf);
 }
+
 @font-face {
     font-family: 'OpenSans Regular';
     src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
-}    
+}
+
 .backgroundstyle {
     background-image: url(../img/mountains.jpg);
     background-size: cover;
 }
+
 .headerclass {
     border: 1px solid rgb(106, 104, 104);
     border-radius: 3px;
-    background: linear-gradient(to right,rgb(176, 175, 175),rgba(104, 102, 102, 0.633));
+    background: linear-gradient(to right, rgb(176, 175, 175), rgba(104, 102, 102, 0.633));
     height: 30px;
 }
+
 .buttonclass {
     cursor: pointer;
     border-radius: 2px 8px;
@@ -33,12 +38,14 @@
     width: fit-content;
     color: rgb(10, 52, 118);
 }
+
 /* hover- меняет значение при нажатии.active-меняет значение при наведении.focus-сохраняет значение нажатым */
 .buttonclass:hover {
     background: rgba(3, 251, 255, 0.73);
     box-shadow: 0px 0px 3px 5px rgba(8, 234, 255, 0.703);
     color: snow;
 }
+
 .buttonclass:focus {
     background: rgb(3, 251, 255);
     color: snow;
@@ -46,6 +53,7 @@
     /*transition-timing-function: ease-in; стиль анимации
     transition-duration: 2s; время анимации*/
 }
+
 .buttonclasstwo {
     cursor: pointer;
     border-radius: 2px 8px;
@@ -59,11 +67,13 @@
     width: fit-content;
     color: rgb(10, 52, 118);
 }
+
 .buttonclasstwo:hover {
     background: rgba(3, 251, 255, 0.73);
     box-shadow: 0px 0px 3px 5px rgba(8, 234, 255, 0.703);
     color: snow;
 }
+
 .buttonclasstwo:focus {
     background: rgb(3, 251, 255);
     color: snow;
@@ -71,27 +81,31 @@
     transition-timing-function: ease;
     transition-duration: 2.5s;
 }
+
 .block1 {
     margin: 10px;
     padding: 10px;
     width: 500px;
     height: fit-content;
-    background-color: rgba(255, 250, 250, 0.77); 
+    background-color: rgba(255, 250, 250, 0.77);
     border-radius: 5px;
-    font-family: 'OpenSans Regular', Helvetica, Arial, sans-serif; 
+    font-family: 'OpenSans Regular', Helvetica, Arial, sans-serif;
 }
+
 .imgclass {
     border-radius: 5px;
     border: 2px solid rgba(240, 240, 240, 0.993);
     width: 350px;
     height: 500px;
 }
+
 .footerstyle {
     padding: 10px;
     margin: 10px;
     background: rgba(255, 255, 255, 0.645);
     border-radius: 5px;
 }
+
 .text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
@@ -100,20 +114,25 @@
     flex-direction: column;
     line-height: 25px;
 }
+
 .fontsize {
     font-size: 14pt;
 }
+
 .skillfactory {
     color: rgb(0, 157, 0);
     text-decoration: none;
 }
+
 a {
     color: blue;
     text-decoration: none;
 }
+
 a:active {
     color: red;
-} 
+}
+
 .sidebar {
     width: 350px;
     margin: 10px;
@@ -127,34 +146,45 @@ a:active {
     font-size: 20px;
     font-family: sans-serif;
 }
+
 .h20 {
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
 .li_list {
     list-style: none;
     display: block;
 }
+
 .h3_sidebar {
     padding: 10px;
-    border-left: 6px orange solid;  
+    border-left: 6px orange solid;
     margin: 5px;
     font-size: 20px;
 }
+
 .article__sidebar {
     display: flex;
     justify-content: flex-end;
 }
-h1,h2 {
+
+h1,
+h2 {
     font-family: 'Times New Roman', sans-serif;
     font-size: 28px;
 }
+
 .adressdiv {
     display: flex;
     flex-direction: row;
     height: 24.8px;
 }
+
 .linkhover:hover {
     opacity: 0.6;
 }
 
+.hh {
+    
+}
